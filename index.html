@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSVP</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <h1>RSVPS</h1>
+    <form id="addRsvp">
+      <label>
+        ID
+        <input  value="12" placeholder="12" id="rsvpId" type="text" name="id" />
+      </label>
+      <label>
+        Guest ID
+        <input value="34" placeholder="34" id="rsvpGuestId" type="text" name="guestId" />
+      </label>
+      <label>
+        Event ID
+        <input value="56" placeholder="56" id="rsvpEventId" type="text" name="eventId" />
+      </label>
+      <label>
+        Cohort ID
+        <input value="78" placeholder="78" id="rsvpCohortId" type="text" name="cohortId" />
+      </label>
+      <button>Add Rsvp</button>
+    </form>
+    <ul id="events"></ul>
+  </body>
+</html>
